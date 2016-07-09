@@ -1,0 +1,140 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #F9F9F9;
+	height: 100vh;
+}
+.container{
+	margin: 0 auto;
+	width: 1000px;
+	height: 700px;
+	background-color: #FFFFFF;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	font-family:  Helvetica, arial, sans-serif;
+}
+h1{
+	margin-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: Helvetica, arial, sans-serif; 
+	font-size: 50px;
+}
+.header{
+	margin: 0px auto;
+	width: 935px;
+	height: 30px;
+	background: linear-gradient(to top, #464545, #909090);
+	font-family: Arial;
+}
+.header li  {
+	display: inline-block;
+	vertical-align: middle;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+.header a{
+	display: table-cell;
+	width: 120px;
+	height: 30px;
+	font-family: Helvetica, arial, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	text-decoration: none;
+}
+.header li:hover{
+	background: linear-gradient(to top, #2F2F2F, #828282);
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	transition: .5s;
+
+}
+
+
+.side-bar{
+	margin: 33px;
+	width: 200px;
+	float: left;
+	
+	
+}
+.side-bar li:hover{
+	background-color: #F9F9F9;
+	padding-left: 30px;
+	transition: .8s;
+
+
+}
+.side-bar li{
+	border: 1px solid gray;
+	padding: 10px;
+	list-style-type: none;
+	border-top: 1px solid transparent;
+}
+.side-bar a{
+	display: table-cell;
+	text-decoration: none;
+	width: 200px;
+	color: #656363;
+}
+.content{
+	width: 652px;
+	height: 465px;
+	margin: 30px 30px 10px 30px;
+	background-color: white;
+	float: right;
+
+}
+.footer{
+	margin: 510px auto 30px auto;
+	width: 935px;
+	height: 30px;
+	background-color: #E1E1E1;
+	position: relative;
+	
+}
+.rightreserved{
+	position: absolute;
+	left: 750px;
+	top: 7px;
+	
+}
+.footer li{
+	display: inline-block;
+	padding: 0 50px;
+	color: black;
+	font-family: tahoma;
+}
+.footer a{
+	height: 30px;
+	display: table-cell;
+	text-decoration: none;
+	color: #2C2C2C;
+	vertical-align: middle;
+}
+.footer li:hover{
+	text-decoration: underline;
+}
+.My_Img{
+	margin-top: 3px;
+	margin-left: 5px;
+	width: 640px;
+	border: 1px solid gray;
+}
+p{
+	width: 640px;
+	padding-left: 10px;
+	font-family: tahoma;
+	font-size: 0.8em;
+}
+
+.side-bar li:first-child{
+	border-top: 1px solid gray;
+}
+
+.header li:first-child{
+	border-left: none;
+}
