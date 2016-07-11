@@ -65,19 +65,19 @@ h1{
 	background-color: #F9F9F9;
 	padding-left: 30px;
 	transition: .8s;
-
-
 }
 .side-bar li{
 	border: 1px solid gray;
 	padding: 10px;
 	list-style-type: none;
-	border-top: 1px solid transparent;
+	border-top: none;
+	
+	
 }
 .side-bar a{
-	display: table-cell;
+	display: block;
 	text-decoration: none;
-	width: 200px;
+	width: 198px;
 	color: #656363;
 }
 .content{
@@ -131,9 +131,12 @@ p{
 	font-size: 0.8em;
 }
 
-.side-bar li:first-child{
+.side-bar a:first-child{
 	border-top: 1px solid gray;
 }
+/*.side-bar li:last-child{
+	border-bottom: 1px solid gray;
+}*/
 
 .header li:first-child{
 	border-left: none;
